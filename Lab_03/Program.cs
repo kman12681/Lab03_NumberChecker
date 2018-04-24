@@ -62,10 +62,9 @@ namespace Lab_03
                     {
                         Console.WriteLine($"\nEven and less than 25");
                     }
-                    else if (num < 1 && num > 100)
-                    {
-                        Console.WriteLine("\nInvalid entry.");
-                    }
+
+                    // else clause is unnecessary because one of the above conditions will be met.
+
                 }
 
                 string response = DoAgain();
