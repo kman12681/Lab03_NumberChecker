@@ -63,8 +63,6 @@ namespace Lab_03
                         Console.WriteLine($"\nEven and less than 25");
                     }
 
-                    // else clause is unnecessary because one of the above conditions will be met.
-
                 }
 
                 string response = DoAgain();
@@ -88,7 +86,10 @@ namespace Lab_03
                 string input = Console.ReadLine().ToUpper();
 
                 if (input == "Y" || input == "N")
+
+                {
                     return input;
+                }
 
                 else
 
