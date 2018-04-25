@@ -58,7 +58,7 @@ namespace Lab_03
                     {
                         Console.WriteLine("\nEven");
                     }
-                    else if (num % 2 == 0 && num >= 2 && num <= 25)
+                    else //(num % 2 == 0 && num >= 2 && num <= 25)
                     {
                         Console.WriteLine($"\nEven and less than 25");
                     }
